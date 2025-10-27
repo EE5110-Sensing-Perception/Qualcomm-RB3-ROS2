@@ -45,7 +45,7 @@ Note: these instructions assume you have already installed the Qualcomm Intellig
 
 ## Quick Start
 
-### 🚨 **Important: Chicken and Egg Problem**
+### **Important: Chicken and Egg Problem**
 
 Git CLI is not available on QIRP devices, so you cannot clone this repository directly. Choose one of these options:
 
@@ -203,13 +203,13 @@ source scripts/ros2_env_setup.sh
 ### Build Tools
 
 The setup automatically installs and configures:
-- ✅ **colcon** - ROS2 build system
-- ✅ **cmake** - Build configuration
-- ✅ **make** - Build automation
-- ✅ **aarch64-qcom-linux-gcc** - QIRP compiler
-- ✅ **numpy** - Scientific computing
-- ✅ **scipy** - Advanced scientific functions
-- ✅ **GitPython** - Python git operations (limited)
+- **colcon** - ROS2 build system
+- **cmake** - Build configuration
+- **make** - Build automation
+- **aarch64-qcom-linux-gcc** - QIRP compiler
+- **numpy** - Scientific computing
+- **scipy** - Advanced scientific functions
+- **GitPython** - Python git operations (limited)
 
 ### Git Repository Setup
 
@@ -313,10 +313,10 @@ export ROS_DOMAIN_ID=123
 **Problem**: `ROS_DOMAIN_ID` or other variables not available after running script
 **Solution**: Always use `source` instead of `bash`:
 ```bash
-# ❌ Wrong
+# Wrong
 bash scripts/ros2_env_setup.sh
 
-# ✅ Correct
+# Correct
 source scripts/ros2_env_setup.sh
 ```
 
