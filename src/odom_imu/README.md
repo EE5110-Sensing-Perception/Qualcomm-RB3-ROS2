@@ -88,6 +88,8 @@ The filter uses:
    [INFO] [imu_ekf]: Bias initialized: ba=[...], bg=[...]
    [INFO] [imu_ekf]: Initial orientation set - Roll: 0.2°, Pitch: 0.1°
    ```
+   ![Printout of odom](images/printout_imu_ekf.png)
+
 
 5. **View output:**
    ```bash
@@ -97,6 +99,9 @@ The filter uses:
    # Visualize in RViz
    rviz2
    ```
+   ![setup rviz1](images/rviz_odom_1.png)
+   ![setup rviz1](images/rviz_odom_2.png)
+   ![setup rviz1](images/rviz_odom_3.png)
 
 ### Using a Configuration File
 
