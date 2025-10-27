@@ -25,11 +25,11 @@ This workspace is specifically configured for:
 - **ROS2 Jazzy** distribution
 
 ## Prerequisites
-
-- QIRP device with QCLinux OS
+- RB3 with QIRP image and SDK (QCLinux OS)
 - ROS2 Jazzy installed
 - Python 3.12
 - Required build tools (automatically installed by setup scripts)
+Note: these instructions assume you have already installed the Qualcomm Intelligent Robotics Image and sdk, as per these instructions: https://docs.qualcomm.com/bundle/publicresource/topics/80-70020-265/quick_start.html
 
 ### Git Support
 
