@@ -10,5 +10,5 @@ imu_ekf:
     process_noise_orientation: 0.001
     process_noise_bias: 1e-6
     init_samples: 100
-    imu_axis_remap: 'yxz'
-    imu_axis_signs: '+-+'
+    imu_axis_remap: 'xyz'
+    imu_axis_signs: '+++'
