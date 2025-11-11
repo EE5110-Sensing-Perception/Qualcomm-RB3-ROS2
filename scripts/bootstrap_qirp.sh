@@ -9,7 +9,7 @@ echo "QIRP ROS2 Workspace Bootstrap"
 echo "============================="
 
 # Repository information
-REPO_URL="https://github.com/your-username/ros2_ws.git"
+REPO_URL="https://github.com/EE5110-Sensing-Perception/Qualcomm-RB3-ROS2.git"
 WORKSPACE_DIR="/root/ros2_ws"
 
 # Check if we're on QIRP device
