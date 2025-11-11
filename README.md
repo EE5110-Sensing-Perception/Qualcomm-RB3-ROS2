@@ -49,6 +49,8 @@ Note: these instructions assume you have already installed the Qualcomm Intellig
 
 Git CLI is not available on QIRP devices, so you cannot clone this repository directly. Choose one of these options:
 
+**For convenience, it is recommended to change the folder name from "Qualcomm-RB3-ROS2" to "ros2_ws", and use ros2_ws as your workspace folder thereafter**
+
 #### **Option A: Bootstrap Script (Recommended)**
 1. **Copy the bootstrap script** to your QIRP device:
    ```bash
@@ -63,9 +65,14 @@ Git CLI is not available on QIRP devices, so you cannot clone this repository di
 #### **Option B: Manual File Transfer**
 1. **Clone on host machine**:
    ```bash
-   git clone https://github.com/your-username/ros2_ws.git
+   git clone https://github.com/EE5110-Sensing-Perception/Qualcomm-RB3-ROS2.git
    ```
-2. **Transfer to QIRP device**:
+2. ** Rename the folder**
+   ```bash
+   # for convenience, rename the folder "ros2_ws"
+   mv Qualcomm-RB3-ROS2 ros2_ws
+   ```
+3. **Transfer to QIRP device**:
    ```bash
    scp -r ros2_ws/ user@qirp-device:/root/
    ```
