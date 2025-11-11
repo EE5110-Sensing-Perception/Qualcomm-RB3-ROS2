@@ -67,7 +67,7 @@ Git CLI is not available on QIRP devices, so you cannot clone this repository di
    ```bash
    git clone https://github.com/EE5110-Sensing-Perception/Qualcomm-RB3-ROS2.git
    ```
-2. ** Rename the folder**
+2. **Rename the folder**
    ```bash
    # for convenience, rename the folder "ros2_ws"
    mv Qualcomm-RB3-ROS2 ros2_ws
@@ -82,6 +82,7 @@ Git CLI is not available on QIRP devices, so you cannot clone this repository di
 2. **Deploy to QIRP device** when ready
 
 ### 1. Setup Environment
+Note: ros2_env_setup.sh sets the ROS_DOMAIN_ID you are using, change it to your working ID before running the script.
 
 ```bash
 # Navigate to workspace
