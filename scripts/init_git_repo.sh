@@ -21,7 +21,7 @@ cat > .git/config << EOF
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://github.com/your-username/ros2_ws.git
+	url = https://github.com/EE5110-Sensing-Perception/Qualcomm-RB3-ROS2.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
